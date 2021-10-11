@@ -1,0 +1,376 @@
+body{
+    font-family: sans-serif;
+}
+.body{
+    padding-left: 150;
+    padding-right: 150;
+    padding-top: 10;
+    font-weight: lighter;
+}
+header{
+    display: flex;
+    padding-left: 140;
+    padding-right: 2000;
+    background: rgb(255, 255, 255);
+    position: fixed;
+    top: 0;
+    padding-top: 20;
+    height: 50; 
+}
+.container{
+    margin-top: 0%;
+}
+.container ul{
+    font-family:Arial, Helvetica, sans-serif;
+    flex-wrap: nowrap;
+    display: flex;   
+    margin-left: 470;    
+}
+nav li{
+    display: inline;
+}
+li a:hover:not(.active) {
+    color: #00b39b;
+  }
+  
+.active {
+    color: #00b39b;
+  }
+a {
+    text-decoration:none;
+    color: #ababab;
+    padding: 15;
+    font-size: 15;   
+}
+h1{
+    margin: 15;
+    font-family: Work Sans,Arial,sans-serif;
+
+    font-weight: lighter;
+    color: #00b39b;
+    text-align: center;
+    font-size: 35;
+    padding-top: 25;
+}
+.para1{
+    display: flex;
+    padding-bottom: 5;
+    padding-top: 10;
+    color: #747474;
+    
+    
+}
+.para1  p{
+    padding: 12;
+    font-size: 16;
+    line-height: 1.9;
+}
+.logo{
+    margin: 10;
+    justify-content: center;
+    padding-top: 40;
+    padding-left: 470;
+    
+}
+.boxes{
+    padding-top: 32;
+    display: flex;
+    height: 360;
+    width: 1000;
+    justify-items: start;
+    
+}
+.boxes h2{
+    font-size: 25;
+}
+.gbox{
+    border-radius: 15px;
+    margin: 10;
+    color: white;
+    background-color: #00b39b;
+    font-family: Work Sans,Arial,sans-serif;
+    padding: 25;
+    letter-spacing: -.3px;
+}
+.dbbox{
+    border-radius: 15px;
+    margin: 10;
+    color: white;
+    background-color: #1b2734;
+    font-family: Work Sans,Arial,sans-serif;
+    padding: 28;
+    letter-spacing: -.3px;
+}
+.lbbox{
+    border-radius: 15px;
+    margin: 10;
+    color: white;
+    background-color: #3d83df;
+    font-family: Work Sans,Arial,sans-serif;
+    padding: 28;
+    letter-spacing: -.3px;
+}
+#bold{
+    font-weight: lighter;
+    margin-top: 10;
+}
+h2{
+    margin-top: 2;
+}
+#gbutton,  #lbbutton{
+    color: white;
+    text-decoration: underline;
+    background-color: transparent;
+    border: none;
+    font-size: 18;
+    font-weight: normal;
+    padding-top: 35;
+}
+
+#dbbutton{
+    color: white;
+    text-decoration: underline;
+    background-color: transparent;
+    border: none;
+    font-size: 18;
+    font-weight: normal;
+    padding-top: 35;
+}
+#dbbutton2{
+    color: white;
+    text-decoration: underline;
+    background-color: transparent;
+    border: none;
+    font-size: 18;
+    font-weight: normal;
+    padding-top: 10;
+}
+
+.logoPlty h2{
+    font-weight: lighter;
+    font-family: Work Sans,Arial,sans-serif;
+    font-size: 26;
+    color: #00b39b;
+}
+.logoPlty{
+    margin-top: 38;
+    display: flex;  
+}
+
+.companies > svg{
+    margin: 10; 
+    padding: 12;
+}
+.companies{
+    display: flex;
+    margin-left: 400;
+}
+
+.greens{
+    display: flex;
+    background: #e5faf8;
+}
+.world{
+    padding-left: 130;
+    display: block;
+    flex-direction: column;
+    width: 4000;  
+}
+.world > h1{
+    text-align: left;
+    width: 400;
+    padding-bottom: 12;
+}
+.world p{
+    font-size: 14;
+    padding-left: 16;
+}
+ .oga{  
+     display: block;
+     padding-left: 20;
+     margin: 0;
+     padding-right: 150;
+ }
+.whiteboxes{
+    padding-top: 15;
+    display: flex;
+}
+.whiteboxes2{
+    display: flex;
+    padding-top: 15;
+}
+.oga h2{
+    font-family: Work Sans,Arial,sans-serif;
+    font-size: 23;
+    justify-self: center;
+    text-align: center;
+    font-weight: lighter;
+    color: #00b39b;
+}
+.oga p{
+    text-align: center;
+    font-family:Arial, Helvetica, sans-serif;
+    font-size: 13;
+    font-weight: lighter;
+
+}
+
+.oga img{
+    padding: 10;
+    padding-left: 100;
+}
+.flag{
+    background-color: rgb(255, 255, 255);
+    border-radius: 6px;
+    width: 240;
+    height: 230;
+    padding-top: 20;
+    margin: 20;
+    margin-bottom: 10;
+}
+.sevenm{
+    background-color: rgb(255, 255, 255);
+    border-radius: 6px;
+    width: 240;
+    height: 220;
+    padding-top: 50;
+}
+.mln{
+    background-color: rgb(255, 255, 255);
+    border-radius: 6px;
+    width: 240;
+    height: 220;
+    padding-top: 50;
+    margin: 20;
+}
+.solution{
+    background-color: rgb(255, 255, 255);
+    border-radius: 6px;
+    width: 240;
+    height: 210;
+    padding-top: 50;
+}
+
+.third{
+    padding-top: 50;
+    margin-left: 398;
+    width: 500;
+    text-align: center;
+}
+.third h1{
+    font-size: 30;
+}
+.third p{
+    font-stretch: wider;
+    line-height: 1.7;
+    width: 480;
+    color: #747474;
+    font-stretch: narrower;
+    font-size: 14;
+}
+ .imgs{
+    margin-top: 60;
+    display: flex;
+    flex-wrap: wrap 
+   
+ }
+
+ .imgs img{
+     width: 300;
+     height: 300;
+ }
+ .imgs1{
+    display: inline-flex;
+    margin: 70;
+    margin-top: 0%;
+    justify-content:center;
+    
+ }
+ .imgs2{
+    display: inline-flex;
+    margin: 70;
+    margin-top: 0%;
+ 
+    justify-content:center;
+    
+}
+.imgs3{
+    display: inline-flex;
+    margin-left: 70;
+    margin-top: 0%;
+
+}
+
+.imgs input{
+    color: white;
+   background-color: #3d83df;
+    border: none;
+    font-size: 10;
+    font-weight: bolder;
+    padding-top: 10;
+    width: 100;
+    border-radius: 5px;
+    padding-bottom: 10;
+    height: 40;
+    margin-top: 10
+}
+
+.words{
+    display: flex;
+    justify-content: space-between;
+    margin-left: 10;
+    margin-right: 10;
+}
+.imgs p {
+    font-size: 18;
+    color: #747474;
+}
+
+.last{
+    padding-top: 50;
+    display: flex;
+    flex-direction: column;
+  
+    
+}
+.last h1{
+    font-family: Work Sans,Arial,sans-serif;
+    font-weight: lighter;
+    color: #333;
+    font-size: 30;
+    font-stretch:narrower;
+}
+.last input{
+    color: white;
+   background-color: #3d83df;
+    border: none;
+    font-size: 12;
+   margin-left: 540;
+    font-weight: bolder;
+    padding-top: 10;
+    width: 210;
+    border-radius: 5px;
+    padding-bottom: 10;
+    height: 40;
+    margin-top: 10
+}
+ footer{
+     margin-top: 80;
+     display: flex;
+    border-top: 1px solid #eef2f2;
+    justify-content: center;
+    height: 75;
+ 
+ }
+
+ .innerfoot{
+     display: flex;
+     flex-direction: column;
+    
+ }
+ .innerfoot p{
+     text-align: center;
+     font-size: 12;
+     color: #ababab;
+     line-height: 1.7;
+ }
